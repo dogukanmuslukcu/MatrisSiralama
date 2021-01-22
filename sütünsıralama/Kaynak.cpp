@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-	void satýrSýralama(int x[][5], int m, int n);
+	void satirSiralama(int x[][5], int m, int n);
 	int x[2][5] = { {-1,-2,16,9,-4},{8,-2,17,41,9} }; // pattern matris for sorting
 
-	satýrSýralama(x, 2, 5);
+	satirSiralama(x, 2, 5);
 	for (int i = 0; i < 2; i++)
 	{
 		for (int j = 0; j < 5; j++)
@@ -16,7 +16,7 @@ int main() {
 }
 
 
-void satýrSýralama(int x[][5], int m, int n) {// line sort function
+void satirSiralama(int x[][5], int m, int n) {// line sort function
 	int temp;
 	for (int i = 0; i < m; i++)
 	{
@@ -34,7 +34,7 @@ void satýrSýralama(int x[][5], int m, int n) {// line sort function
 		}
 	}
 }
-void sutunSýralama(int x[][4], int m, int n) {// column sort function
+void sutunSiralama(int x[][4], int m, int n) {// column sort function
 	int temp;
 	for (int j = 0; j < n; j++)
 	{
